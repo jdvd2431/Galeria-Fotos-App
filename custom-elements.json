@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "1.0.0",
+  "readme": "",
+  "modules": [
+    {
+      "kind": "javascript-module",
+      "path": "src/galeria-fotos.js",
+      "declarations": [
+        {
+          "kind": "class",
+          "description": "",
+          "name": "GaleriaFotos",
+          "members": [
+            {
+              "kind": "field",
+              "name": "header",
+              "type": {
+                "text": "string"
+              },
+              "default": "'My app'",
+              "privacy": "public",
+              "attribute": "header"
+            }
+          ],
+          "attributes": [
+            {
+              "name": "header",
+              "fieldName": "header"
+            }
+          ],
+          "superclass": {
+            "name": "LitElement",
+            "package": "lit"
+          },
+          "tagName": "galeria-fotos",
+          "customElement": true
+        }
+      ],
+      "exports": [
+        {
+          "kind": "custom-element-definition",
+          "name": "galeria-fotos",
+          "declaration": {
+            "name": "GaleriaFotos",
+            "module": "src/galeria-fotos.js"
+          }
+        }
+      ]
+    }
+  ]
+}
