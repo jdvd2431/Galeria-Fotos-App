@@ -67,7 +67,7 @@ class Header extends LitElement {
                 <div class="modal-body">
                   <div class="label-name-input">
                     <label for="etiqueta">Label</label>
-                    <input @input="${this._getInput1}" type="text" id="etiqueta" class="input-data" placeholder="Suspendisse elit massa">
+                    <input @input="${this._getInput1}" type="text" id="etiqueta" class="input-data" placeholder="Enter Image Label">
                   </div>
                   <div class="label-name-input">
                     <label for="etiqueta2">Photo URL</label>
